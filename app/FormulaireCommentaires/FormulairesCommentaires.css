@@ -5,8 +5,21 @@
 }
 
 .title {
+    
     text-align: center;
 }
+.success-popup {
+    margin-top: 360px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(57, 224, 71, 0.8);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    z-index: 9999;
+  }
 .input1, .textarea1 {
     display: block;
     text-align: center;
@@ -16,6 +29,9 @@
     font-size: 16px; /* Augmentez cette valeur pour agrandir la police */
     margin-bottom: 10px; /* Ajoutez un espacement entre les champs */
 }
+.error {
+    color: red;
+  }
 /* input,
 textarea {
     display: block;
@@ -42,4 +58,5 @@ textarea {
     cursor: pointer;
     margin-top: 10px; 
     margin-left: 150px;
+    margin-bottom: 100px;
 }

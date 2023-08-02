@@ -1,8 +1,14 @@
 import './AboutMe.css'; 
 
+
 const AboutMe = () => {
     return (
       <div className='container'>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"></link>
+      
       <h1 className='titre'>A propos de moi </h1>
       <p className='description'>Bienvenue sur mon portfolio en ligne !<br></br> Je suis un développeur web passionné et créatif, spécialisé dans la création d'applications web modernes et conviviales.<br></br> Avec une solide expérience dans le développement frontend et backend, ainsi qu'une expertise dans les technologies telles que HTML, CSS, JavaScript et les frameworks populaires tels que React et Node.js, je suis prêt à relever tous les défis pour créer des expériences web exceptionnelles.<br></br>
   Mon approche allie une forte compréhension des besoins des utilisateurs, une attention méticuleuse aux détails et une passion pour la création de produits numériques performants et esthétiquement plaisants. <br></br> J'aime repousser les limites de la créativité et de l'innovation pour offrir des solutions uniques et personnalisées à mes clients.<br></br>
