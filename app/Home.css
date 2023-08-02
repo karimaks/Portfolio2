@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eff4fd;
+    
+  }
+
+.container {
+ 
+    background-color: #eff4fd;
+    display: inline-block;
+    flex-direction: column;
+    min-height: 100vh;
+    
+  }
+  
+  .img-container {
+    
+    
+    width: 35%;  
+    align-self: flex-end;
+    
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    margin-left: 15%;
+    margin-bottom: 20%;
+  }
+  
+  .img:hover {
+    right: 35px;
+    transform: scale(1.5);
+  }
+  
+  .imginfo{
+    
+    display: flex;
+    margin-top: 10%;
+  }
+  .infos {
+    margin-top: 90px;
+    
+    align-items:center;
+    width: 65%;
+    height: 45%;
+    padding-left: 10%;
+    top: 2%;
+   
+  }
+  
+  .infos p {
+    font-size: 20px;
+    color: #555;
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  span {
+    color: orange;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  
+  .button_about:hover {
+    background-color: orange;
+    color: #212121;
+  }
+  
+  
+  .button_about
+  {
+    
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #212121;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+    
+  }
+   .button_cv
+   {
+    
+  
+    padding: 10px 20px;
+    background-color: orange;
+    font-weight: bold;
+    color: #212121;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  
+   }
+  
+   .button_cv:hover {
+    color:#fff ;
+    background-color: #212121;
+   }
+   

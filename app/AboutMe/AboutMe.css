@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eff4fd;
+    
+  }
+
+/* .container{
+       
+    background-color: #eff4fd;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.description{
+font-size: 18px;
+
+} 
+
+.titre{
+    margin-top: 90px;
+    margin-bottom: 70px;
+font-size: 220%;
+color: orange;
+text-align: center;
+}

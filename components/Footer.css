@@ -1,0 +1,48 @@
+footer {
+    text-align: center;
+    background-color: #d3e7f5;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  
+  .image-container {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .linked,
+  .git {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .footer {
+   
+    
+    
+ 
+    text-align: center;
+    background-color: #d3e7f5;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+    /* background-color: rgba(248, 248, 248, 0.9);  */
+  }
+  
+  .footer_transparent {
+    background-color: #d3e7f5;
+  }
+  
+  .footer.transparent {
+    background-color: transparent; /* Set transparent background color when scrolled to the bottom */
+  }
+  

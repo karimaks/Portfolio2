@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eff4fd;
+    
+  }
+.container-contact {
+    background-color: #eff4fd;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  .titre-contact{
+    margin-bottom: 80px;
+    color: orange;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.5rem 5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .button-contact {
+  padding: 10px 30px;
+  background-color: orange;
+  font-weight: bold;
+  color: #212121;
+  border: none;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 130px;
+  }
+  .button-contact:hover {
+    color:#fff ;
+    background-color: #212121;
+   }
+  
+  .popup {
+    margin-top: 360px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(57, 224, 71, 0.8);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close {
+    cursor: pointer;
+  }
+  
+
+  
+  

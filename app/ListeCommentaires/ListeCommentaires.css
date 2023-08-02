@@ -1,0 +1,78 @@
+.liste-commentaires {
+    margin-top: 20px;  
+    margin-bottom: 10%;
+  }
+  
+ 
+  .commentaires-table {
+    margin-top: 40px;
+    width: 150%;
+    border-collapse: collapse;
+    display:block;
+    align-items: center;
+    
+    
+  }
+  .titre-com{
+
+    text-align: center;
+  }
+  
+  .commentaires-table th,
+  .commentaires-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .commentaires-table th {
+    background-color: #f8f8f8;
+  }
+  
+  .commentaires-table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+
+  .cancel, .delete
+ {
+  
+
+  padding: 10px 20px;
+  background-color: rgb(239, 63, 63);
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+ }
+
+ .cancel, .delete:hover {
+  color:#fff ;
+  background-color: #212121;
+ }
+
+ .save, .edit:hover {
+    color:#fff ;
+  background-color: #212121;
+  }
+  
+  
+  .save, .edit
+  {
+    
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(77, 193, 251);
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+    
+  }

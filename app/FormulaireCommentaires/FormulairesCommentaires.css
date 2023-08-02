@@ -1,0 +1,45 @@
+.div {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Pour centrer le formulaire horizontalement */
+}
+
+.title {
+    text-align: center;
+}
+.input1, .textarea1 {
+    display: block;
+    text-align: center;
+    margin-right: 400px;
+    width: 400px;
+    padding: 10px;
+    font-size: 16px; /* Augmentez cette valeur pour agrandir la police */
+    margin-bottom: 10px; /* Ajoutez un espacement entre les champs */
+}
+/* input,
+textarea {
+    display: block;
+    text-align: center;
+    margin-right: 400px;
+    width: 400px;
+    padding: 10px;
+    font-size: 16px; 
+    margin-bottom: 10px; 
+} */
+
+.btn-submit1:hover {
+    background-color: orange;
+    color: #212121;
+}
+
+.btn-submit1 {
+    padding: 10px 20px;
+    background-color: #212121;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    margin-left: 150px;
+}
